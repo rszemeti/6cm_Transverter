@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -121,6 +121,46 @@
 <rectangle x1="1.97" y1="0" x2="3.1" y2="6.565" layer="1"/>
 <smd name="OUT" x="9.75" y="0" dx="1.13" dy="0.5" layer="1" rot="R90"/>
 </package>
+<package name="DG1847">
+<description>.518 pad pitch
+1.295 V offset
+1.855 H offset</description>
+<smd name="P$1" x="-1.855" y="1.295" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$2" x="-1.855" y="0.777" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.855" y="0.259" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$4" x="-1.855" y="-0.259" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$5" x="-1.855" y="-0.777" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$6" x="-1.855" y="-1.295" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$7" x="-1.295" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$8" x="-0.777" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$9" x="-0.259" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$10" x="0.259" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$11" x="0.777" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$12" x="1.295" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$13" x="1.855" y="-1.295" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$14" x="1.855" y="-0.777" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$15" x="1.855" y="-0.259" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$16" x="1.855" y="0.259" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$17" x="1.855" y="0.777" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$18" x="1.855" y="1.295" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$19" x="1.295" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$20" x="0.777" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$21" x="0.259" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$22" x="-0.259" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$23" x="-0.777" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$24" x="-1.295" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
+<smd name="PAD1" x="-0.635" y="0.635" dx="1" dy="1" layer="1"/>
+<smd name="PAD2" x="0.635" y="0.635" dx="1" dy="1" layer="1"/>
+<smd name="PAD4" x="0.635" y="-0.635" dx="1" dy="1" layer="1"/>
+<smd name="PAD3" x="-0.635" y="-0.635" dx="1" dy="1" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FILTER_BP">
@@ -169,6 +209,20 @@
 <wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="0.508" y="2.794" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MIXER">
+<pin name="LO" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="IF" x="-2.54" y="-10.16" visible="pin" length="short" rot="R90"/>
+<pin name="GND" x="5.08" y="-10.16" visible="pin" length="short" rot="R90"/>
+<pin name="RF" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<circle x="1.27" y="2.794" radius="3.6632375" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="5.588" x2="3.81" y2="0.254" width="0.254" layer="94"/>
+<wire x1="3.81" y1="5.588" x2="-1.524" y2="0.254" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -230,6 +284,35 @@
 <connects>
 <connect gate="G$1" pin="IN" pad="N"/>
 <connect gate="G$1" pin="OUT" pad="OUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIXER">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MDB-73H+">
+<gates>
+<gate name="G$1" symbol="MIXER" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="DG1847">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$2 P$4 P$8 P$10 P$15 P$17 PAD1 PAD2 PAD3 PAD4"/>
+<connect gate="G$1" pin="IF" pad="P$9"/>
+<connect gate="G$1" pin="LO" pad="P$16"/>
+<connect gate="G$1" pin="RF" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>

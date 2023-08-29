@@ -6749,6 +6749,52 @@ type RDH, grid 15 mm</description>
 <smd name="P$1" x="-3.79990625" y="2.383934375" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="P$2" x="40.666659375" y="-6.93241875" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 </package>
+<package name="Q1_INPUT">
+<smd name="N" x="0" y="0" dx="1.13" dy="0.5" layer="1" rot="R90"/>
+<rectangle x1="0" y1="-0.565" x2="10" y2="0.565" layer="1"/>
+<rectangle x1="1.97" y1="0" x2="3.1" y2="6.565" layer="1"/>
+<smd name="OUT" x="9.75" y="0" dx="1.13" dy="0.5" layer="1" rot="R90"/>
+</package>
+<package name="DG1847">
+<description>.518 pad pitch
+1.295 V offset
+1.855 H offset</description>
+<smd name="P$1" x="-1.855" y="1.295" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$2" x="-1.855" y="0.777" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.855" y="0.259" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$4" x="-1.855" y="-0.259" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$5" x="-1.855" y="-0.777" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$6" x="-1.855" y="-1.295" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$7" x="-1.295" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$8" x="-0.777" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$9" x="-0.259" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$10" x="0.259" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$11" x="0.777" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$12" x="1.295" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$13" x="1.855" y="-1.295" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$14" x="1.855" y="-0.777" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$15" x="1.855" y="-0.259" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$16" x="1.855" y="0.259" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$17" x="1.855" y="0.777" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$18" x="1.855" y="1.295" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$19" x="1.295" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$20" x="0.777" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$21" x="0.259" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$22" x="-0.259" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$23" x="-0.777" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$24" x="-1.295" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
+<smd name="PAD1" x="-0.635" y="0.635" dx="1" dy="1" layer="1"/>
+<smd name="PAD2" x="0.635" y="0.635" dx="1" dy="1" layer="1"/>
+<smd name="PAD4" x="0.635" y="-0.635" dx="1" dy="1" layer="1"/>
+<smd name="PAD3" x="-0.635" y="-0.635" dx="1" dy="1" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FILT_BP_ISOL">
@@ -6769,6 +6815,28 @@ type RDH, grid 15 mm</description>
 <wire x1="-1.27" y1="-3.302" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
 <text x="-2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.794" y="5.588" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MATCH">
+<pin name="IN" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="OUT" x="10.16" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="2.54" x2="7.62" y2="1.27" width="0.254" layer="94"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="0.508" y="2.794" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MIXER">
+<pin name="LO" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="IF" x="-2.54" y="-10.16" visible="pin" length="short" rot="R90"/>
+<pin name="GND" x="5.08" y="-10.16" visible="pin" length="short" rot="R90"/>
+<pin name="RF" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<circle x="1.27" y="2.794" radius="3.6632375" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="5.588" x2="3.81" y2="0.254" width="0.254" layer="94"/>
+<wire x1="3.81" y1="5.588" x2="-1.524" y2="0.254" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6797,6 +6865,40 @@ type RDH, grid 15 mm</description>
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="Q1_INPUT">
+<gates>
+<gate name="G$1" symbol="MATCH" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="Q1_INPUT">
+<connects>
+<connect gate="G$1" pin="IN" pad="N"/>
+<connect gate="G$1" pin="OUT" pad="OUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MDB-73H+">
+<gates>
+<gate name="G$1" symbol="MIXER" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="DG1847">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$2 P$4 P$8 P$10 P$15 P$17 PAD1 PAD2 PAD3 PAD4"/>
+<connect gate="G$1" pin="IF" pad="P$9"/>
+<connect gate="G$1" pin="LO" pad="P$16"/>
+<connect gate="G$1" pin="RF" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6840,6 +6942,10 @@ type RDH, grid 15 mm</description>
 <part name="U$5" library="microstrip" deviceset="5_32_BP_ISOL" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="U$6" library="microstrip" deviceset="5_7_GHZ_BP_ISOL" device=""/>
+<part name="U$7" library="microstrip" deviceset="Q1_INPUT" device=""/>
+<part name="U$8" library="microstrip" deviceset="MDB-73H+" device=""/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603K"/>
 </parts>
 <sheets>
 <sheet>
@@ -6869,7 +6975,11 @@ type RDH, grid 15 mm</description>
 <instance part="U$4" gate="G$1" x="45.72" y="53.34" rot="R180"/>
 <instance part="U$5" gate="G$1" x="76.2" y="43.18"/>
 <instance part="GND6" gate="1" x="119.38" y="17.78"/>
-<instance part="U$6" gate="G$1" x="175.26" y="45.72"/>
+<instance part="U$6" gate="G$1" x="175.26" y="55.88"/>
+<instance part="U$7" gate="G$1" x="93.98" y="43.18"/>
+<instance part="U$8" gate="G$1" x="147.32" y="53.34"/>
+<instance part="GND7" gate="1" x="152.4" y="38.1"/>
+<instance part="C7" gate="G$1" x="132.08" y="55.88" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6950,6 +7060,11 @@ type RDH, grid 15 mm</description>
 <pinref part="U$2" gate="G$1" pin="S"/>
 <wire x1="119.38" y1="20.32" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="GND"/>
+<wire x1="152.4" y1="43.18" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="D1" class="0">
 <segment>
@@ -6993,8 +7108,35 @@ type RDH, grid 15 mm</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="P$2"/>
+<pinref part="U$7" gate="G$1" pin="IN"/>
+<wire x1="83.82" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="OUT"/>
 <pinref part="U$2" gate="G$1" pin="G"/>
-<wire x1="83.82" y1="43.18" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="43.18" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="LO"/>
+<wire x1="139.7" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="D"/>
+<wire x1="119.38" y1="48.26" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="RF"/>
+<pinref part="U$6" gate="G$1" pin="P$1"/>
+<wire x1="157.48" y1="55.88" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

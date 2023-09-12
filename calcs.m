@@ -8,24 +8,30 @@
 %12 0.056924067 52.496284
 %22 0.52234888 -36.645409
 
-
+% CEL @6GHz
 %S11 = 0.77647251 * exp(1j * deg2rad(-65.628983));
 %S21 = 5.8355913 * exp(1j * deg2rad(101.51994));
 %S12 = 0.056924067 * exp(1j * deg2rad(52.496284));
 %S22 = 0.52234888 * exp(1j * deg2rad(-36.645409));
 
 %SAV541+ 60mA, 5.0 GHz
-S11 = 0.68 * exp(1j * deg2rad(112.7));
-S21 = 3.1 * exp(1j * deg2rad(11.2));
-S12 = 0.105 * exp(1j * deg2rad(4.8));
-S22 = 0.20 * exp(1j * deg2rad(125.6));
+%S11 = 0.68 * exp(1j * deg2rad(112.7));
+%S21 = 3.1 * exp(1j * deg2rad(11.2));
+%S12 = 0.105 * exp(1j * deg2rad(4.8));
+%S22 = 0.20 * exp(1j * deg2rad(125.6));
+
+% NE32584C @6GHz
+S11 = 0.842 * exp(1j * deg2rad(-89.5));
+S21 = 3.878 * exp(1j * deg2rad(89.0));
+S12 = 0.062 * exp(1j * deg2rad(29.9));
+S22 = 0.475 * exp(1j * deg2rad(-71.3));
 
 % test data from the book
 
-%S11 = 0.4 * exp(1j * deg2rad(162));
-%S21 = 5.2 * exp(1j * deg2rad(63));
-%S12 = 0.04 * exp(1j * deg2rad(60));
-%S22 = 0.35 * exp(1j * deg2rad(-39));
+S11 = 0.4 * exp(1j * deg2rad(162));
+S21 = 5.2 * exp(1j * deg2rad(63));
+S12 = 0.04 * exp(1j * deg2rad(60));
+S22 = 0.35 * exp(1j * deg2rad(-39));
 
 
 

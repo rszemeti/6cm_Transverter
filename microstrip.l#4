@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.518" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -120,6 +120,42 @@
 <rectangle x1="0" y1="-0.565" x2="10" y2="0.565" layer="1"/>
 <rectangle x1="1.97" y1="0" x2="3.1" y2="6.565" layer="1"/>
 <smd name="OUT" x="9.75" y="0" dx="1.13" dy="0.5" layer="1" rot="R90"/>
+</package>
+<package name="DG1847">
+<description>.518 pad pitch
+1.295 V offset
+1.855 H offset</description>
+<smd name="P$1" x="-1.855" y="1.295" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$2" x="-1.855" y="0.777" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.855" y="0.259" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$4" x="-1.855" y="-0.259" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$5" x="-1.855" y="-0.777" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$6" x="-1.855" y="-1.295" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$7" x="-1.295" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$8" x="-0.777" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$9" x="-0.259" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$10" x="0.259" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$11" x="0.777" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$12" x="1.295" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$13" x="1.855" y="-1.295" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$14" x="1.855" y="-0.777" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$15" x="1.855" y="-0.259" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$16" x="1.855" y="0.259" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$17" x="1.855" y="0.777" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$18" x="1.855" y="1.295" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$19" x="1.295" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$20" x="0.777" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$21" x="0.259" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$22" x="-0.259" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$23" x="-0.777" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$24" x="-1.295" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

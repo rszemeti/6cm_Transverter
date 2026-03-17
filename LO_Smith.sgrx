@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph_file version="15">
+    <Window ClassName="SGraphSmithWin" DocID="3062274872720" ShellIndex="0" TabIndex="4" ActiveView="true">
+        <geometry>01d9d0cb0003000000000000000000000000077b000003c400000000000000000000077b000003c40000000000000000078000000000000000000000077b000003c4</geometry>
+        <state>000000ff00000000fd0000000100000000000001ca00000378fc0200000003fb0000000c004c006500670065006e00640100000031000001670000005d00fffffffb00000018005400650072006d0069006e006100740069006f006e0073010000019c0000005d0000005d00fffffffb0000000e00530065007300730069006f006e01000001fd000001ac0000005d00ffffff000005ae0000037800000004000000040000000800000008fc0000000100000002000000040000001600460069006c00650054006f006f006c0042006100720100000000ffffffff00000000000000000000001600560069006500770054006f006f006c0042006100720100000098ffffffff00000000000000000000001a004c00610075006e006300680054006f006f006c004200610072010000016fffffffff000000000000000000000018004700720061007000680054006f006f006c004200610072010000025affffffff0000000000000000</state>
+        <Guts>
+            <graph_info version="15" tab_label="LO_Smith">
+                <window_specific/>
+                <terminations>R 50.00000
+
+</terminations>
+                <source_files>
+                    <source id="0">
+                        <file>Filters_LO_RO4350B_508.son</file>
+                    </source>
+                </source_files>
+                <plot type="SGraphSmithWin" plotover="0" graph_title="LO Filter, 5.328GHz, 0508mm Rogers 4350B">
+                    <graph_properties show_grid="1" show_symbols="1" grid_weight="1" axis_weight="1"/>
+                    <graph_units>
+                        <length unit="mm"/>
+                        <resistance unit="Ohms"/>
+                        <inductance unit="nH"/>
+                        <capacitance unit="pF"/>
+                        <frequency unit="GHz"/>
+                        <conductivity unit="S/m"/>
+                        <resistivity unit="Ohm-cm"/>
+                        <sheet_resistance unit="Ohms/sq"/>
+                    </graph_units>
+                    <axes>
+                        <smith_axis Impedance="1" Fine="0" ScaleIndex="2" GridWeight="1"/>
+                    </axes>
+                    <curves>
+                        <curve id="68" measurement_name="S-Parameters" measurement_id="SMITH" plotover="0">
+                            <Data_Source name="Data Source">
+                                <File name="File" value="0"/>
+                                <De-embedded name="De-embedded" value="0"/>
+                                <Interpolated name="Interpolated" value="0"/>
+                                <Parameters name="Parameters" value="0">
+                                    <Data value0="L1=8.3876712328767" value1="W2=1.3265302315745" value2="SCALE=1.0416666666667" value3="L1_2=8.2296689140729" value4="W2_3=1.279216382665" value5="W2_4=1.3203815404723"/>
+                                </Parameters>
+                            </Data_Source>
+                            <Ports name="Ports">
+                                <To_Port name="To Port" value="1"/>
+                                <From_Port name="From Port" value="1"/>
+                            </Ports>
+                            <Style name="Style">
+                                <Color name="Color" value="#d50000"/>
+                                <Symbol name="Symbol" value="0"/>
+                                <Line_Style name="Line Style" value="1"/>
+                                <Line_Width name="Line Width" value="1"/>
+                            </Style>
+                            <Limit_Frequencies name="Limit Frequencies">
+                                <Lower_Frequency name="Lower Frequency" value="-1"/>
+                                <Upper_Frequency name="Upper Frequency" value="-1"/>
+                            </Limit_Frequencies>
+                        </curve>
+                    </curves>
+                    <marker_properties>
+                        <data_marker_properties color="#004c97" weight="12" symbol="2" display_annotation="1"/>
+                        <curve_marker_properties color="#004c97" show_parameters="0" hide_label="0"/>
+                        <note_marker_properties color="#004c97"/>
+                        <delta_marker_properties color="#004c97"/>
+                        <line_marker_properties color="#004c97" weight="2" style="2" display_annotation="1"/>
+                        <line_segment_marker_properties color="#004c97" weight="2" style="2" symbol="0" symbol_size="12"/>
+                        <general_properties text_size="10" label_precision="4"/>
+                    </marker_properties>
+                    <markers>
+                        <data_markers/>
+                        <curve_markers/>
+                        <note_markers/>
+                        <circle_markers/>
+                    </markers>
+                    <zoom_info valid="0" centerx="0" centery="0" scale="1"/>
+                </plot>
+            </graph_info>
+        </Guts>
+    </Window>
+</graph_file>

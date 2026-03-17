@@ -6679,6 +6679,93 @@ type RDH, grid 15 mm</description>
 <smd name="PAD4" x="0.635" y="-0.635" dx="1" dy="1" layer="1"/>
 <smd name="PAD3" x="-0.635" y="-0.635" dx="1" dy="1" layer="1"/>
 </package>
+<package name="532_R4350B_508_3EC">
+<rectangle x1="0" y1="1.06" x2="16.56" y2="2.39" layer="1"/>
+<rectangle x1="8.28" y1="3.05" x2="24.84" y2="4.38" layer="1"/>
+<rectangle x1="16.56" y1="5.04" x2="33.12" y2="6.37" layer="1"/>
+<rectangle x1="0" y1="0" x2="8.18" y2="0.86" layer="1"/>
+<rectangle x1="24.84" y1="6.57" x2="33.02" y2="7.43" layer="1"/>
+<rectangle x1="-2.9835875" y1="-0.271515625" x2="0" y2="0.86" layer="1"/>
+<rectangle x1="33.02" y1="6.57" x2="36.013953125" y2="7.69635625" layer="1"/>
+<smd name="P$1" x="35.745275" y="7.14233125" dx="1.13" dy="0.5" layer="1" rot="R90"/>
+<smd name="P$2" x="-2.71505" y="0.287509375" dx="1.13" dy="0.5" layer="1" rot="R90"/>
+</package>
+<package name="5.3_R4350B_508_STUB">
+<wire x1="0" y1="5.08" x2="0" y2="-7.62" width="0.25" layer="1"/>
+<wire x1="-4.336053125" y1="4.33605" x2="-0.00488125" y2="-0.065890625" width="0.25" layer="1"/>
+<wire x1="-4.33605" y1="-4.336053125" x2="-0.0579625" y2="0.048196875" width="0.25" layer="1"/>
+<wire x1="-4.33613125" y1="-4.33613125" x2="-4.31101875" y2="4.33546875" width="0.25" layer="1" curve="-93.235323"/>
+<polygon width="0.25" layer="1">
+<vertex x="0" y="0"/>
+<vertex x="-0.14864375" y="0"/>
+<vertex x="-4.289415625" y="-4.140771875"/>
+<vertex x="-4.565465625" y="-3.864721875"/>
+<vertex x="-4.565465625" y="-3.822253125"/>
+<vertex x="-5.011396875" y="-3.376321875"/>
+<vertex x="-5.69090625" y="-2.04915"/>
+<vertex x="-6.051896875" y="-0.39284375"/>
+<vertex x="-6.04128125" y="0.753834375"/>
+<vertex x="-5.807696875" y="1.613840625"/>
+<vertex x="-5.0751" y="3.20644375"/>
+<vertex x="-4.565465625" y="3.91780625"/>
+<vertex x="-4.384971875" y="4.06645"/>
+<vertex x="-4.204475" y="4.07706875"/>
+<vertex x="-0.552103125" y="0.28666875"/>
+</polygon>
+<smd name="RF_END" x="0" y="-7.62" dx="0.5" dy="0.5" layer="1"/>
+<smd name="DC_END" x="0" y="5.08" dx="0.5" dy="0.5" layer="1"/>
+</package>
+<package name="5.3_R4350B_508_STUB_M">
+<wire x1="0" y1="5.08" x2="0" y2="-7.62" width="0.25" layer="1"/>
+<wire x1="4.336053125" y1="-4.33605" x2="0.00488125" y2="0.065890625" width="0.25" layer="1"/>
+<wire x1="4.33605" y1="4.336053125" x2="0.0579625" y2="-0.048196875" width="0.25" layer="1"/>
+<wire x1="4.33613125" y1="4.33613125" x2="4.31101875" y2="-4.33546875" width="0.25" layer="1" curve="-93.235323"/>
+<polygon width="0.25" layer="1">
+<vertex x="0" y="0"/>
+<vertex x="0.14864375" y="0"/>
+<vertex x="4.289415625" y="4.140771875"/>
+<vertex x="4.565465625" y="3.864721875"/>
+<vertex x="4.565465625" y="3.822253125"/>
+<vertex x="5.011396875" y="3.376321875"/>
+<vertex x="5.69090625" y="2.04915"/>
+<vertex x="6.051896875" y="0.39284375"/>
+<vertex x="6.04128125" y="-0.753834375"/>
+<vertex x="5.807696875" y="-1.613840625"/>
+<vertex x="5.0751" y="-3.20644375"/>
+<vertex x="4.565465625" y="-3.91780625"/>
+<vertex x="4.384971875" y="-4.06645"/>
+<vertex x="4.204475" y="-4.07706875"/>
+<vertex x="0.552103125" y="-0.28666875"/>
+</polygon>
+<smd name="RF_END" x="0" y="-7.62" dx="0.5" dy="0.5" layer="1"/>
+<smd name="DC_END" x="0" y="5.08" dx="0.5" dy="0.5" layer="1"/>
+</package>
+<package name="5.3_R4350B_508_STUB_90">
+<wire x1="6.116165625" y1="-0.030671875" x2="-0.059078125" y2="0.01936875" width="0.25" layer="1"/>
+<wire x1="-0.015940625" y1="6.101425" x2="0.059128125" y2="-0.02376875" width="0.25" layer="1"/>
+<wire x1="-0.0159375" y1="6.1015375" x2="6.098053125" y2="-0.0479625" width="0.25" layer="1" curve="-93.235323"/>
+<polygon width="0.25" layer="1">
+<vertex x="-0.0159375" y="-0.030675"/>
+<vertex x="0.08916875" y="0.07443125"/>
+<vertex x="0.08916875" y="5.930365625"/>
+<vertex x="0.4795625" y="5.930365625"/>
+<vertex x="0.50959375" y="5.900334375"/>
+<vertex x="1.140234375" y="5.900334375"/>
+<vertex x="2.559171875" y="5.44236875"/>
+<vertex x="3.985615625" y="4.526440625"/>
+<vertex x="4.788934375" y="3.7081125"/>
+<vertex x="5.23188125" y="2.934825"/>
+<vertex x="5.839996875" y="1.290665625"/>
+<vertex x="5.982640625" y="0.4272875"/>
+<vertex x="5.96011875" y="0.194553125"/>
+<vertex x="5.839996875" y="0.059415625"/>
+<vertex x="0.5771625" y="0.157015625"/>
+</polygon>
+<wire x1="0" y1="0" x2="-6.35" y2="0" width="0.25" layer="1"/>
+<wire x1="0" y1="0" x2="0" y2="-7.62" width="0.25" layer="1"/>
+<smd name="RF" x="0" y="-7.62" dx="0.5" dy="0.5" layer="1"/>
+<smd name="DC" x="-6.35" y="0" dx="0.5" dy="0.5" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FILT_BP_ISOL">
@@ -6713,6 +6800,15 @@ type RDH, grid 15 mm</description>
 <wire x1="-1.016" y1="5.588" x2="3.81" y2="0.254" width="0.254" layer="94"/>
 <wire x1="3.81" y1="5.588" x2="-1.524" y2="0.254" width="0.254" layer="94"/>
 </symbol>
+<symbol name="STUB">
+<pin name="RF_END" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<pin name="P$2" x="0" y="10.16" visible="off" length="short" rot="R270"/>
+<wire x1="0" y1="7.62" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="0" y2="5.08" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="5_32_BP_ISOL">
@@ -6721,6 +6817,15 @@ type RDH, grid 15 mm</description>
 </gates>
 <devices>
 <device name="" package="532_R4003C_508_3EC">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="532_R4350B_508_3EC" package="532_R4350B_508_3EC">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
@@ -6758,6 +6863,40 @@ type RDH, grid 15 mm</description>
 <connect gate="G$1" pin="IF" pad="P$9"/>
 <connect gate="G$1" pin="LO" pad="P$16"/>
 <connect gate="G$1" pin="RF" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STUB">
+<gates>
+<gate name="G$1" symbol="STUB" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="5.3GHZ,RO4350B" package="5.3_R4350B_508_STUB">
+<connects>
+<connect gate="G$1" pin="P$2" pad="DC_END"/>
+<connect gate="G$1" pin="RF_END" pad="RF_END"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.3GHZ,RO4350B_MIRRORED" package="5.3_R4350B_508_STUB_M">
+<connects>
+<connect gate="G$1" pin="P$2" pad="DC_END"/>
+<connect gate="G$1" pin="RF_END" pad="RF_END"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="5.3_R4350B_508_STUB_90">
+<connects>
+<connect gate="G$1" pin="P$2" pad="DC"/>
+<connect gate="G$1" pin="RF_END" pad="RF"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6888,13 +7027,12 @@ type RDH, grid 15 mm</description>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603K"/>
 <part name="D1" library="supply1" deviceset="VCC" device="" value="D1"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="U$5" library="microstrip" deviceset="5_32_BP_ISOL" device=""/>
+<part name="U$5" library="microstrip" deviceset="5_32_BP_ISOL" device="532_R4350B_508_3EC"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="U$6" library="microstrip" deviceset="5_7_GHZ_BP_ISOL" device=""/>
 <part name="U$8" library="microstrip" deviceset="MDB-73H+" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="R0603"/>
-<part name="L2" library="inductors" deviceset="0603" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603K"/>
 <part name="D2" library="supply1" deviceset="VCC" device="" value="D1"/>
 <part name="U$1" library="RF" deviceset="GALI39+" device=""/>
@@ -6920,6 +7058,7 @@ type RDH, grid 15 mm</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603K"/>
+<part name="U$9" library="microstrip" deviceset="STUB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6948,18 +7087,17 @@ type RDH, grid 15 mm</description>
 <instance part="C1" gate="G$1" x="-48.26" y="38.1" rot="R90"/>
 <instance part="L1" gate="G$1" x="-22.86" y="48.26" rot="R90"/>
 <instance part="GND3" gate="1" x="15.24" y="27.94"/>
-<instance part="R2" gate="G$1" x="22.86" y="60.96" rot="R90"/>
-<instance part="C5" gate="G$1" x="30.48" y="68.58" rot="R270"/>
+<instance part="R2" gate="G$1" x="22.86" y="68.58" rot="R90"/>
+<instance part="C5" gate="G$1" x="30.48" y="76.2" rot="R270"/>
 <instance part="C6" gate="G$1" x="30.48" y="38.1" rot="R270"/>
-<instance part="D1" gate="VCC" x="22.86" y="78.74"/>
-<instance part="GND5" gate="1" x="35.56" y="63.5"/>
+<instance part="D1" gate="VCC" x="22.86" y="83.82"/>
+<instance part="GND5" gate="1" x="35.56" y="71.12"/>
 <instance part="U$5" gate="G$1" x="-7.62" y="38.1"/>
 <instance part="GND6" gate="1" x="119.38" y="17.78"/>
 <instance part="U$6" gate="G$1" x="68.58" y="38.1"/>
 <instance part="U$8" gate="G$1" x="45.72" y="35.56"/>
 <instance part="GND7" gate="1" x="50.8" y="20.32"/>
 <instance part="R1" gate="G$1" x="-22.86" y="60.96" rot="R90"/>
-<instance part="L2" gate="G$1" x="22.86" y="48.26" rot="R90"/>
 <instance part="C2" gate="G$1" x="-15.24" y="68.58" rot="R270"/>
 <instance part="D2" gate="VCC" x="-22.86" y="78.74"/>
 <instance part="U$1" gate="G$1" x="-35.56" y="38.1"/>
@@ -6985,6 +7123,7 @@ type RDH, grid 15 mm</description>
 <instance part="GND9" gate="1" x="132.08" y="35.56"/>
 <instance part="GND10" gate="1" x="162.56" y="35.56"/>
 <instance part="C10" gate="G$1" x="43.18" y="15.24"/>
+<instance part="U$9" gate="G$1" x="22.86" y="48.26"/>
 </instances>
 <busses>
 </busses>
@@ -7000,8 +7139,8 @@ type RDH, grid 15 mm</description>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="68.58" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="76.2" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="76.2" x2="35.56" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="GND"/>
@@ -7050,12 +7189,12 @@ type RDH, grid 15 mm</description>
 <net name="D1" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="66.04" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="73.66" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="68.58" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="68.58" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="76.2" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="D1" gate="VCC" pin="VCC"/>
-<junction x="22.86" y="68.58"/>
+<junction x="22.86" y="76.2"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -7111,8 +7250,8 @@ type RDH, grid 15 mm</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="53.34" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="58.42" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -7142,12 +7281,12 @@ type RDH, grid 15 mm</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="OUT"/>
-<pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="38.1" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="38.1" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <junction x="22.86" y="38.1"/>
+<pinref part="U$9" gate="G$1" pin="RF_END"/>
 </segment>
 </net>
 <net name="N$7" class="0">

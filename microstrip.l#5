@@ -97,12 +97,12 @@
 <rectangle x1="7.62" y1="-1.92" x2="22.62" y2="-0.66" layer="1"/>
 <rectangle x1="14.605" y1="-3.9" x2="29.605" y2="-2.58" layer="1"/>
 <rectangle x1="22.225" y1="-5.88" x2="37.225" y2="-4.56" layer="1"/>
-<rectangle x1="-0.490965625" y1="1.6" x2="7.609034375" y2="2.7" layer="1"/>
 <rectangle x1="-4.3132625" y1="1.6" x2="-0.4571625" y2="3.3880375" layer="1"/>
-<rectangle x1="29.56336875" y1="-6.9077125" x2="37.66336875" y2="-6.2077125" layer="1"/>
+<rectangle x1="29.5384" y1="-6.9577625" x2="37.6384" y2="-6.2577625" layer="1"/>
 <rectangle x1="37.616303125" y1="-7.997696875" x2="41.472403125" y2="-6.209340625" layer="1"/>
 <smd name="P$1" x="-3.79990625" y="2.383934375" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="P$2" x="40.666659375" y="-6.93241875" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<rectangle x1="-0.490153125" y1="1.65676875" x2="7.609846875" y2="2.35676875" layer="1"/>
 </package>
 <package name="532_R4003C_508_3EC">
 <rectangle x1="0" y1="0" x2="16.335" y2="1.32" layer="1"/>
@@ -120,6 +120,107 @@
 <rectangle x1="0" y1="-0.565" x2="10" y2="0.565" layer="1"/>
 <rectangle x1="1.97" y1="0" x2="3.1" y2="6.565" layer="1"/>
 <smd name="OUT" x="9.75" y="0" dx="1.13" dy="0.5" layer="1" rot="R90"/>
+</package>
+<package name="DG1847">
+<description>.518 pad pitch
+1.295 V offset
+1.855 H offset</description>
+<smd name="P$1" x="-1.855" y="1.295" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$2" x="-1.855" y="0.777" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.855" y="0.259" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$4" x="-1.855" y="-0.259" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$5" x="-1.855" y="-0.777" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$6" x="-1.855" y="-1.295" dx="0.31" dy="0.51" layer="1" rot="R90"/>
+<smd name="P$7" x="-1.295" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$8" x="-0.777" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$9" x="-0.259" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$10" x="0.259" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$11" x="0.777" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$12" x="1.295" y="-1.855" dx="0.31" dy="0.51" layer="1" rot="R180"/>
+<smd name="P$13" x="1.855" y="-1.295" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$14" x="1.855" y="-0.777" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$15" x="1.855" y="-0.259" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$16" x="1.855" y="0.259" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$17" x="1.855" y="0.777" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$18" x="1.855" y="1.295" dx="0.31" dy="0.51" layer="1" rot="R270"/>
+<smd name="P$19" x="1.295" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$20" x="0.777" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$21" x="0.259" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$22" x="-0.259" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$23" x="-0.777" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<smd name="P$24" x="-1.295" y="1.855" dx="0.31" dy="0.51" layer="1"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
+<smd name="PAD1" x="-0.635" y="0.635" dx="1" dy="1" layer="1"/>
+<smd name="PAD2" x="0.635" y="0.635" dx="1" dy="1" layer="1"/>
+<smd name="PAD4" x="0.635" y="-0.635" dx="1" dy="1" layer="1"/>
+<smd name="PAD3" x="-0.635" y="-0.635" dx="1" dy="1" layer="1"/>
+</package>
+<package name="532_R4350B_508_3EC">
+<rectangle x1="0" y1="0" x2="16.335" y2="1.32" layer="1"/>
+<rectangle x1="8.511990625" y1="1.900765625" x2="24.846990625" y2="3.220765625" layer="1"/>
+<rectangle x1="16.428303125" y1="3.779346875" x2="32.763303125" y2="5.099346875" layer="1"/>
+<rectangle x1="0" y1="-1.0842375" x2="8.5435" y2="-0.32855625" layer="1"/>
+<rectangle x1="24.23896875" y1="5.4415875" x2="32.78246875" y2="6.19726875" layer="1"/>
+<rectangle x1="-2.98778125" y1="-1.46396875" x2="0.01221875" y2="-0.33396875" layer="1"/>
+<rectangle x1="32.74120625" y1="5.44494375" x2="35.74120625" y2="6.57494375" layer="1"/>
+<smd name="P$1" x="35.49029375" y="6.0128625" dx="1.13" dy="0.5" layer="1" rot="R90"/>
+<smd name="P$2" x="-2.734971875" y="-0.900628125" dx="1.13" dy="0.5" layer="1" rot="R90"/>
+</package>
+<package name="5.3_R4350B_508_STUB">
+<wire x1="0" y1="5.08" x2="0" y2="-7.62" width="0.25" layer="1"/>
+<wire x1="-4.336053125" y1="4.33605" x2="-0.00488125" y2="-0.065890625" width="0.25" layer="1"/>
+<wire x1="-4.33605" y1="-4.336053125" x2="-0.0579625" y2="0.048196875" width="0.25" layer="1"/>
+<wire x1="-4.33613125" y1="-4.33613125" x2="-4.31101875" y2="4.33546875" width="0.25" layer="1" curve="-93.235323"/>
+<polygon width="0.25" layer="1">
+<vertex x="0" y="0"/>
+<vertex x="-0.14864375" y="0"/>
+<vertex x="-4.289415625" y="-4.140771875"/>
+<vertex x="-4.565465625" y="-3.864721875"/>
+<vertex x="-4.565465625" y="-3.822253125"/>
+<vertex x="-5.011396875" y="-3.376321875"/>
+<vertex x="-5.69090625" y="-2.04915"/>
+<vertex x="-6.051896875" y="-0.39284375"/>
+<vertex x="-6.04128125" y="0.753834375"/>
+<vertex x="-5.807696875" y="1.613840625"/>
+<vertex x="-5.0751" y="3.20644375"/>
+<vertex x="-4.565465625" y="3.91780625"/>
+<vertex x="-4.384971875" y="4.06645"/>
+<vertex x="-4.204475" y="4.07706875"/>
+<vertex x="-0.552103125" y="0.28666875"/>
+</polygon>
+<smd name="RF_END" x="0" y="-7.62" dx="0.5" dy="0.5" layer="1"/>
+<smd name="DC_END" x="0" y="5.08" dx="0.5" dy="0.5" layer="1"/>
+</package>
+<package name="5.3_R4350B_508_STUB_M">
+<wire x1="0" y1="5.08" x2="0" y2="-7.62" width="0.25" layer="1"/>
+<wire x1="4.336053125" y1="-4.33605" x2="0.00488125" y2="0.065890625" width="0.25" layer="1"/>
+<wire x1="4.33605" y1="4.336053125" x2="0.0579625" y2="-0.048196875" width="0.25" layer="1"/>
+<wire x1="4.33613125" y1="4.33613125" x2="4.31101875" y2="-4.33546875" width="0.25" layer="1" curve="-93.235323"/>
+<polygon width="0.25" layer="1">
+<vertex x="0" y="0"/>
+<vertex x="0.14864375" y="0"/>
+<vertex x="4.289415625" y="4.140771875"/>
+<vertex x="4.565465625" y="3.864721875"/>
+<vertex x="4.565465625" y="3.822253125"/>
+<vertex x="5.011396875" y="3.376321875"/>
+<vertex x="5.69090625" y="2.04915"/>
+<vertex x="6.051896875" y="0.39284375"/>
+<vertex x="6.04128125" y="-0.753834375"/>
+<vertex x="5.807696875" y="-1.613840625"/>
+<vertex x="5.0751" y="-3.20644375"/>
+<vertex x="4.565465625" y="-3.91780625"/>
+<vertex x="4.384971875" y="-4.06645"/>
+<vertex x="4.204475" y="-4.07706875"/>
+<vertex x="0.552103125" y="-0.28666875"/>
+</polygon>
+<smd name="RF_END" x="0" y="-7.62" dx="0.5" dy="0.5" layer="1"/>
+<smd name="DC_END" x="0" y="5.08" dx="0.5" dy="0.5" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -169,6 +270,29 @@
 <wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="0.508" y="2.794" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MIXER">
+<pin name="LO" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="IF" x="-2.54" y="-10.16" visible="pin" length="short" rot="R90"/>
+<pin name="GND" x="5.08" y="-10.16" visible="pin" length="short" rot="R90"/>
+<pin name="RF" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<circle x="1.27" y="2.794" radius="3.6632375" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="5.588" x2="3.81" y2="0.254" width="0.254" layer="94"/>
+<wire x1="3.81" y1="5.588" x2="-1.524" y2="0.254" width="0.254" layer="94"/>
+</symbol>
+<symbol name="STUB">
+<pin name="RF_END" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<pin name="P$2" x="0" y="10.16" visible="off" length="short" rot="R270"/>
+<wire x1="0" y1="7.62" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="0" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -230,6 +354,60 @@
 <connects>
 <connect gate="G$1" pin="IN" pad="N"/>
 <connect gate="G$1" pin="OUT" pad="OUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIXER">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MDB-73H+">
+<gates>
+<gate name="G$1" symbol="MIXER" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="DG1847">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$2 P$4 P$8 P$10 P$15 P$17 PAD1 PAD2 PAD3 PAD4"/>
+<connect gate="G$1" pin="IF" pad="P$9"/>
+<connect gate="G$1" pin="LO" pad="P$16"/>
+<connect gate="G$1" pin="RF" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STUB">
+<gates>
+<gate name="G$1" symbol="STUB" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="5.3GHZ,RO4350B" package="5.3_R4350B_508_STUB">
+<connects>
+<connect gate="G$1" pin="P$2" pad="DC_END"/>
+<connect gate="G$1" pin="RF_END" pad="RF_END"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.3GHZ,RO4350B_MIRRORED" package="5.3_R4350B_508_STUB_M">
+<connects>
+<connect gate="G$1" pin="P$2" pad="DC_END"/>
+<connect gate="G$1" pin="RF_END" pad="RF_END"/>
 </connects>
 <technologies>
 <technology name=""/>
